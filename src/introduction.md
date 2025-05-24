@@ -1,0 +1,36 @@
+# Introduction
+This is a payload collection and references for CTF challenges.
+- Guide
+  - [HackTricks](https://book.hacktricks.xyz/welcome/readme)  
+  - [PortSwigger Web Security Academy](https://portswigger.net/web-security)
+  - [Bamboofox](https://bamboofox.cs.nctu.edu.tw/courses)
+  - [Computer Security](https://edu-ctf.csie.org/)
+  - [Hacker101](https://www.hacker101.com/resources)
+- Practice
+  - [CTF Time](https://ctftime.org/)
+  - [Google CTF](https://capturetheflag.withgoogle.com/)
+  - [picoCTF](https://play.picoctf.org/)
+  - [OverTheWire](https://overthewire.org/wargames/)
+  - [pwnable.tw](https://pwnable.tw/)
+  - [Hack The Box](https://www.hackthebox.com/)
+  - [prompt(1) to win](https://prompt.ml/0)
+  - [TryHackMe](https://tryhackme.com)
+- Real World
+  - [Hackerone Bug Bounty](https://hackerone.com/directory/programs)
+  - [SOCPrime](https://socprime.com/)
+    - SIGMA Rules
+  - [AlienVault](https://otx.alienvault.com/)
+  - [Anomali](https://www.anomali.com/)
+  - [MITRE ATT&CK](https://attack.mitre.org/)
+  - [Malpedia](https://malpedia.caad.fkie.fraunhofer.de/library)
+- Certification
+  - CEHP
+  - OSCP
+  - C|PENT
+- News
+  - [CISA](https://www.cisa.gov/)
+  - [MS-ISAC]
+  - [BleepingComputer](https://www.bleepingcomputer.com/)
+  - [The Hacker News](https://thehackernews.com/)
+  - [PENETRATION TESTING BLOG](https://securityonline.info/)
+
