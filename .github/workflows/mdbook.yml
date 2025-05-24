@@ -52,7 +52,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     environment:
-      name: github-pages
+      name: test-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
