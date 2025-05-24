@@ -1,28 +1,30 @@
-## Binary
+# Binary
 <!-- toc -->
 
-### Tool
+## Tool
 
-#### File Analyzer
+### File Analyzer
 
-##### General
+#### General
 - `$ file`
 
-##### ELF
+#### ELF
 - readelf
+
   | Usage | Description |
   |-------|-------------|
   | `$ readelf -S <binary>` | Display the sections' header. |
   | `$ readelf -s <binary>` | Display the symbol table. |
 
 - objdump
+
   | Usage | Description |
   |-------|-------------|
   | `$ objdump -x <binary>` | Display the contents of all headers. |
   | `$ objdump -R <binary>` | Display the dynamic relocation entries in the file. |
   | `$ objdump -M intel -S <binary>` | Intermix source code with disassembly. |
 
-##### PE
+#### PE
 - PE-bear
 - PEview
 - PE Detective (ExplorerSuite)
@@ -33,15 +35,15 @@
 - Signature Explorer (ExplorerSuite)
 - 010 editor
 
-#### Pack Detector
+### Pack Detector
 - PEiD
 - DIE (detect it easy)
   - identify shell and other info
 
-#### Demangler
+### Demangler
 - `$ c++filt`
 
-#### Decompiler
+### Decompiler
 - [Decompiler Explorer Online](https://dogbolt.org/)
 - [Compiler Explorer Online](https://godbolt.org/)
 - jad
@@ -50,8 +52,9 @@
 - Telerik/JustAssembly
 
 
-#### Debugger
+### Debugger
 - IDA pro
+
   | Usage                                                | Description            |
   |:-----------------------------------------------------|:-----------------------|
   | `<S-F1>`                                             | set variable structure |
@@ -61,22 +64,27 @@
   | `y`                                                  | type declaration       |
   | `<C-f>`                                              | search                 |
   | `<R>` > `reset pointer type` > `create new struct type` |                        |
+
   - [IDA Skins](https://github.com/zyantific/IDASkins)
 - Ghidra
 - Windbg preview
 - x64dbg
+
   | Usage       | Description  |
   |:------------|:-------------|
   | `<Space>`   | modify code  |
   | `<C-p>`     | patch binary |
   | `<R>` > `s` | search       |
+
 - gdb
+
   | Usage  | Description |
   |:-------|:------------|
   | watch  |             |
   | rwatch |             |
   | awatch |             |
   | x/[N][g,w,h,b]x | |
+
   - plugins
     - peda
     - gef
@@ -85,7 +93,7 @@
 - CheatEngine72
 
 
-#### Running Environ
+### Running Environ
 - x86 binary on x64 OS
   - `$ sudo apt install mingw-w64`
     - `/usr/x86_64-w64-mingw32/include`
@@ -99,17 +107,18 @@
   - strace / ltrace
 
 
-#### Payload
+### Payload
 - pwntools
 - one\_gadget
 - angr
 
 
-### Background
+## Background
 
 
-#### Calling Convention
+### Calling Convention
 - Compare
+
   | Type                             | Platform            | Ret     | Parameters                  | Stack Cleaner | Note                                      | 
   |----------------------------------|---------------------|---------|-----------------------------|---------------|-------------------------------------------|
   | stdcall                          | Win32 API           | eax     | stack                       | callee        |                                           |
@@ -160,12 +169,12 @@
     ...
     ```
 
-#### File Format
+### File Format
 - segment register / index in descripter table
 
-##### ELF
+#### ELF
 
-##### PE
+#### PE
 - Alignment
   - File
     - FileAlignment: 0x200
@@ -174,6 +183,7 @@
     - SectionAlignment: 0x1000
     - Page Model
 - [PE Format](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format)
+
   | Layout  |                               |
   |:--------|:------------------------------|
   | Headers | Dos MZ Header                 |
