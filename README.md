@@ -48,6 +48,7 @@ This is a payload collection and references for CTF challenges.
 
 ##### ELF
 - readelf
+
   | Usage | Description |
   |-------|-------------|
   | `$ readelf -S <binary>` | Display the sections' header. |
