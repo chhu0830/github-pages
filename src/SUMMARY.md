@@ -2,5 +2,8 @@
 
 [Introduction](./introduction.md)
 
-- [Binary](./binary.md)
+- [Binary](./binary/binary.md)
+  - [Buffer Over Flow]()
+  - [Fuzzing]()
+  - [Heap](./binary/heap.md)
 - [Security](./security.md)

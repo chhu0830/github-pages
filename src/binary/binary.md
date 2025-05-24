@@ -1,8 +1,6 @@
 ## Binary
 
-
 ### Tool
-
 
 #### File Analyzer
 
@@ -188,17 +186,3 @@
   | Null    |                               |
   | .rsrc   |                               |
   | Null    |                               |
-
-
-### Technique
-
-
-#### Buffer Over Flow
-
-
-#### Fuzzing
-
-
-#### Heap
-> [how2heap](https://github.com/shellphish/how2heap)
-
