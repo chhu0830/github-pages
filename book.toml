@@ -1,3 +1,7 @@
 [book]
 title = "Cybersecurity Cheatsheet"
 authos = ["Chia-Hsuan Hu"]
+
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
